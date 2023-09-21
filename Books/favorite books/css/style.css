@@ -1,0 +1,161 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+    }
+
+body{
+    margin: 0%;
+}
+ol {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    /*height: 100%;
+    width: 15%;
+    overflow: auto;
+    position: fixed;*/
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+li{
+    display: inline-block;
+    position: relative;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family:'Secular One', sans-serif;
+    padding: 10px 15px;
+}
+
+section h2 {
+    display: inline-block;
+    font-size: 200%;
+    color: crimson;
+    text-align: left;
+    text-decoration: none;
+    font-family: 'Zeyada',Arial, Helvetica, sans-serif;
+    float: none;
+    margin:5% ;
+    width: 250px;
+}
+
+li a:hover{
+    background-color: crimson;
+}
+
+img{
+    display: block;
+    float: left;
+    width: 30%;
+    margin-top: 75.4px;
+    margin-left: 10%;
+}
+.addictive{
+    display: block;
+    font-size: 325% ;
+    float: none;
+    width:60%;
+    margin-left: 40%;
+    margin-top: 5%;
+    font-family:'Secular One', sans-serif;
+    padding: 5%;
+    padding-bottom: 0;
+    height: 50%;
+}
+
+section h1{
+    margin: 0;
+}
+
+span{
+    font-size: 20px;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    width: 60%;
+    text-align: left;
+    margin-left: 20%;
+    padding: 2.5%;
+    clear: both;
+}
+
+.Hidden{
+    display: none;
+}
+
+.bookList h3{
+    font-family:'Secular One', sans-serif;
+    font-size: 200%;
+    text-align: center;
+}
+
+.bookList img{
+    width: 30%;
+    margin-left: 35%;
+}
+
+
+/*MEDIA ADJUSTMENTS*/
+
+@media screen and (max-width: 700px)
+{
+    .Hidden{
+        display:inline-block;
+    }
+    .Default{
+        display: none;
+    }
+    .Hidden .Icon{
+        width: 24%;
+        padding: 0 10px;
+    
+    }
+    .S{
+        margin: 0 10% 0 10%;
+    }
+    li a img{
+        max-width: 100%;
+        margin-top: 0%;
+    }
+    section h2{
+        width: 300px;
+        margin-bottom: 0%;
+        margin-right: 0%;
+    }
+
+    img{
+        width: 100%;
+        margin-left: 0;
+    }
+    .addictive{
+        font-size: 100%;
+        margin:0;
+        text-align: center;
+        width: 100%;
+    }
+    p{
+        margin-left: 10%;
+        width: 80%;
+        font-size: 20px;
+    }
+    .bookList   img{
+        width: 100%;
+        margin-left: 0;
+    }
+}

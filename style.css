@@ -1,0 +1,280 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+    }
+
+ol {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    /*height: 100%;
+    width: 15%;
+    overflow: auto;
+    position: fixed;*/
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+li{
+    display: inline-block;
+    position: relative;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-family:'Secular One', sans-serif;
+    padding: 10px 15px;
+}
+
+section h2 {
+    display: inline-block;
+    font-size: 200%;
+    color: crimson;
+    text-align: left;
+    text-decoration: none;
+    font-family: 'Zeyada',Arial, Helvetica, sans-serif;
+    float: none;
+    margin:5% ;
+    width: 250px;
+}
+
+
+/*.dropDown li {
+    display: block;
+}
+
+.dropDown{
+    width: 100%;
+    background-color: black;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    display: block
+}
+ol li:hover .dropDown{
+    display: block;
+}*/
+
+li a:hover{
+    background-color: crimson;
+}
+
+
+.Hidden{
+    display: none;
+}
+
+body {
+    background-image: url('https://media.cntraveller.com/photos/6343df288d5d266e2e66f082/4:3/w_5332,h_3999,c_limit/tokyoGettyImages-1031467664.jpeg');
+    background-repeat: no-repeat;
+    background-color: black;
+    background-size: 100%;
+    margin: 0%;
+}
+
+
+.welcomeMessage {
+    background-color:rgba(250, 252, 251, .85);
+    width: 45%;
+    margin: 10% 27.5%;
+    padding: 30px;
+    font-family: 'Secular One', sans-serifS;
+    text-align: center;
+    border: 7px solid white;
+    border-radius: 5%;
+
+}
+
+section h1{
+    font-family: 'Secular One', sans-serifS;
+    text-align: center;
+}
+
+.articles {
+    background-color: black;
+    padding-bottom: 10%;
+
+}
+
+.comingSoon {
+    display: inline-block;
+    color: white;
+    font-family: 'Secular One', sans-serifS;
+    text-align: center;
+    max-width: 25%;
+    margin: 4%;
+}
+
+.comingSoon img{
+    height: 100%;
+    width: 100%;
+}
+
+footer h6{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0;
+    position: static;
+    padding-bottom: 20px;
+    height: 10%;
+    width: 100%;
+padding-top: 2%;
+}
+
+/*coming soon page Css*/
+
+.comingSoonPage{
+    background-color: rgb(233, 203, 169);
+    background-image: none;
+    color: black;
+    margin: 8% 10%;
+}
+.comingSoonPage h1{
+    width: 50%;
+    float:right;
+    font-size: 600%;
+    padding: 0 5% 5% 0;
+    margin: 0;
+}
+.comingSoonPage .samuraiFrog img{
+    width: 50%;
+}
+
+/*food main page*/
+
+.food{
+    background-image: url(/Food/foodbackground.png);
+}
+
+.food .welcomeMessage{
+    background-color: transparent;
+    border: none;
+        max-width: 80%;
+        margin: 8% 27.5%;
+        padding: 30px;
+        font-family: 'Secular One', sans-serifS;
+        font-size: 4.3vw;
+        text-align: justify;
+        color: white;
+}
+
+.food .welcomeMessage::after{
+        content:"";
+        display: inline-block;
+        width: 100%;
+}
+/*Attractions Main page*/
+.attractions{
+    background-image: url(/Attractions/attractionsBackground.png);
+}
+
+.attractions .welcomeMessage{
+    background-color: transparent;
+    border: none;
+        max-width: 80%;
+        margin: 8% 27.5%;
+        padding: 30px;
+        font-family: 'Secular One', sans-serifS;
+        font-size: 4.3vw;
+        text-align: justify;
+        color: white;
+}
+
+.attractions .welcomeMessage::after{
+        content:"";
+        display: inline-block;
+        width: 100%;
+}
+@media screen and (max-width: 700px){
+    .Hidden{
+        display:inline-block;
+    }
+    .Default{
+        display: none;
+    }
+    .Hidden .Icon{
+        width: 24%;
+        padding: 0 10px;
+    
+    }
+    .S{
+        margin: 0 5% 0 5%;
+    }
+    li a img{
+        width: 100%;
+        margin-top: 0%;
+        display: block;
+        float:left
+    }
+    section h2{
+        width: 300px;
+        margin-bottom: 0%;
+        margin-right: 0%;
+    }
+
+body{
+    background-color: white;
+}
+.Home .welcomeMessage{
+        background-color: transparent;
+        width: 80%;
+        margin: 0 10%;
+        border: none;
+        padding: 0;
+    }
+    .welcomeMessage h1{
+        margin-top: 70%;
+        background-color: transparent;
+        color: white;
+        font-size: 400%;
+
+    }
+    .comingSoon{
+        max-width: 100%;
+    }
+
+    /*coming soon mobile*/
+    .comingSoonPage{
+        margin: 30% 0 0 0;
+    }
+    .comingSoonPage h1{
+        width: 100%;
+        float:none;
+        font-size: 150%;
+        padding: 5%;
+    }
+    .comingSoonPage .samuraiFrog img{
+        width: 100%;
+}
+/*Food main page*/
+.food{
+    background-image: url(Food/foodbackgroundmedia.png);
+}
+/*Attractions main page*/
+.attractions{
+    background-image: url(/Attractions/attractionsBackgroundMedia.png);
+}
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
