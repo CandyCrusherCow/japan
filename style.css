@@ -68,7 +68,7 @@ ol li:hover .dropDown{
 }*/
 
 li a:hover{
-    background-color: crimson;
+    background-color: rgb(219, 20, 60);
 }
 
 
@@ -86,14 +86,15 @@ body {
 
 
 .welcomeMessage {
-    background-color:rgba(250, 252, 251, .85);
-    width: 45%;
-    margin: 10% 27.5%;
-    padding: 30px;
+    background-color: rgb(0,0,0,0.8);
+    margin: 0 27.5%;
+    padding: 15% 30px 10%;
     font-family: 'Secular One', sans-serifS;
     text-align: center;
-    border: 7px solid white;
-    border-radius: 5%;
+    /* border: 7px solid white; */
+    /* border-radius: 5%; */
+    color: white;
+
 
 }
 
@@ -234,6 +235,7 @@ body{
         margin: 0 10%;
         border: none;
         padding: 0;
+        color: black;
     }
     .welcomeMessage h1{
         margin-top: 70%;
