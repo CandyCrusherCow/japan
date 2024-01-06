@@ -4,7 +4,7 @@ This is a fully functional website featuring articles about Japanese Foood, Japa
 
 Link to project: https://babblinggaijin.netlify.app/
 
-
+[![solarized dualmode]()](#features)
 
 How It's Made:
 Tech used: HTML, CSS
