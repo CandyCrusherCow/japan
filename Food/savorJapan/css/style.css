@@ -112,6 +112,7 @@ section h1,section span{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    margin-bottom: 150px;
 }
 
 .buttonList button{
@@ -131,6 +132,31 @@ section h1,section span{
     background-color: black;
 }
 
+.bookList{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.bookList h3{
+    font-family:'Secular One', sans-serif;
+    font-size: 200%;
+    text-align: center;
+}
+
+.bookList h4{
+    font-family:'Secular One', sans-serif;
+    font-size: 150%;
+    text-align: center;
+}
+
+.bookList img{
+    width: 45%;
+}
+
+.foodDes{
+    padding: 30px 0px 30px 30px;
+}
 
 footer h6{
     background-color: black;
