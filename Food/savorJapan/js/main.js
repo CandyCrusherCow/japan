@@ -9,7 +9,10 @@ console.log(food)
   document.querySelector('h3').innerText = data[0].name
   document.querySelector('h4').innerText = data[0].location
   document.getElementById('foodDescript').innerText = data[0].description
-  document.getElementById('foodImg').src = data[0].image
+  if(food === 'kaiseki'){document.getElementById('foodImg').classList.toggle('Hidden')}
+  else{
+  document.getElementById('foodImg').classList.remove('Hidden')
+  document.getElementById('foodImg').src = data[0].image}
 //  document.querySelector('a').href = data.drinks[i].strVideo
 })
 .catch(err => {
