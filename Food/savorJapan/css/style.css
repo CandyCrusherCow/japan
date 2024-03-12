@@ -199,9 +199,27 @@ padding-top: 2%;
         margin-right: 0%;
     }
 
+    .Hidden#foodImg{
+        display: block;
+    }
 
+    .bookList{
+        flex-direction: column;
 }
 
+.bookList img{
+    width: 100%;
+}
+
+.foodDes{
+    padding: 0px;
+}
+
+.welcomeMessage{
+    padding: 30px;
+}
+
+}
 
 
 
